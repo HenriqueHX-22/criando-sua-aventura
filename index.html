@@ -7,84 +7,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca do Portal Perdido</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
             <img src="img/cenario-passo0.png" alt="">
-            <p>na biblioteca do meu bairro achei um livro interessante mas acabei entrando nele e encontrei um mundo totalmente quadrado e ressolvo explorar</p>
-            <button class="btn-proximo" data-proximo="1">pego um cachorro e chamo de Dennis</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <p>Em um dia chuvoso, dentro de um baú misterioso, você encontra um mapa antigo de um portal perdido. O mapa está cheio de pistas enigmáticas e você decide segui-las, mesmo sabendo que a aventura será perigosa!</p>
+            <button class="btn-proximo" data-proximo="1">Floresta Escura</button>
+            <button class="btn-proximo" data-proximo="2">Deserto Perigoso</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <p>Você começa sua jornada na Floresta Escura, um local traiçoeiro repleto de criaturas misteriosas e perigos ocultos. Você precisa encontrar o primeiro pedaço do mapa perdido que está escondido em uma árvore gigante.</p>
+            <button class="btn-proximo" data-proximo="3">Escalar a árvore gigante</button>
             <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>No deserto, o calor é imenso e você se depara com um antigo templo enterrado. O mapa diz que a chave para o portal perdido está dentro deste templo, mas você precisa escolher por onde começar.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a entrada do templo</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as cavernas subterrâneas</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Escalando a árvore gigante, você encontra uma caixa de ferro escondida entre os galhos. Dentro dela, está o primeiro fragmento do mapa, indicando que o próximo local é o deserto.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Deserto</button>
         </div>
 
         <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é arriscada demais e volta para casa. Mas a dúvida sempre fica: o que poderia ter encontrado?</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>Investigando a entrada do templo, você encontra uma sala secreta repleta de armadilhas. Após passar por elas, você encontra outro pedaço do mapa que te leva para o Portal Perdido!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Portal Perdido</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>Explorando as cavernas subterrâneas, você se perde entre os corredores escuros, mas encontra diamantes e um baú com outro pedaço do mapa.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Portal Perdido</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>No deserto, a jornada se torna ainda mais desafiadora. Você encontra uma bifurcação no caminho, e o mapa diz que o Portal Perdido está em uma dessas direções.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>De volta às cavernas, você encontra o último pedaço do mapa. Agora, finalmente, você pode seguir para o Portal Perdido!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Portal Perdido</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>O caminho à esquerda leva você a um oásis escondido com um grande portal em ruínas. Dentro do portal, uma sala secreta aguarda com tesouros e riquezas esquecidas.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar no Portal Perdido</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <p>O caminho à direita termina em uma armadilha de areia movediça. Embora o local seja bonito, você percebe que não há sinais do portal perdido aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+            <img src="img/cenario-passo11-portal-perdido.png" alt="imagem do portal perdido e do tesouro encontrado">
+            <p>Dentro do Portal Perdido, você encontra uma sala repleta de tesouros, encantamentos e objetos mágicos que só existem em lendas. Você decide estudar e proteger esse lugar místico.</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra o Portal Perdido. Agora, você tem a chance de explorar esse mundo fantástico!</p>
+            <button class="btn-proximo" data-proximo="11">Entrar no Portal Perdido</button>
         </div>
     </main>
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
